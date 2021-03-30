@@ -2,7 +2,7 @@
 Novalnet’s Payment Module ensures simple and secure integration of payments and payment services for Kentico shops, allowing shop owners to automate the entire payment process from checkout till collection.
 
 ## Integration requirements 
-Novalnet <a href="https://www.novalnet.de/"> merchant account </a> is required for processing all international and local payments through this Kentico Payment Module. The module is available for the kentico version 12 in the following languages: EN & DE
+Novalnet <a href="https://www.novalnet.de/"> merchant account </a> is required for processing all international and local payments through this Kentico Payment Module. The module is available for the kentico version 1.0.3 in the following languages: EN & DE
 
 ## Advantages
 - Easy configuration for all payment methods
