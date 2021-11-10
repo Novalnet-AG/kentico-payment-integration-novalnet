@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="custom.account_holder" xml:space="preserve">
+    <value>Kontoinhaber</value>
+  </data>
+  <data name="custom.amount" xml:space="preserve">
+    <value>Betrag</value>
+  </data>
+  <data name="custom.authcode_title" xml:space="preserve">
+    <value>Authentifizierungscode</value>
+  </data>
+  <data name="custom.barzahlen_title" xml:space="preserve">
+    <value>Barzahlen</value>
+  </data>
+  <data name="custom.creditcard_title" xml:space="preserve">
+    <value>Kreditkarte</value>
+  </data>
+  <data name="custom.duedate_title" xml:space="preserve">
+    <value>Fälligkeitsdatum</value>
+  </data>
+  <data name="custom.cc3d_title" xml:space="preserve">
+    <value>3D-Secure aktivieren</value>
+  </data>
+  <data name="custom.testmode_title" xml:space="preserve">
+    <value>Testmodus aktivieren</value>
+  </data>
+  <data name="custom.authcode_desc" xml:space="preserve">
+    <value>Geben Sie Ihren Novalnet-Authentifizierungscode ein</value>
+  </data>
+  <data name="custom.merchantid_desc" xml:space="preserve">
+    <value>Geben Sie Ihre Novalnet-Händler-ID ein</value>
+  </data>
+  <data name="custom.projectid_desc" xml:space="preserve">
+    <value>Geben Sie Ihre Novalnet-Projekt-ID ein</value>
+  </data>
+  <data name="custom.tariffid_desc" xml:space="preserve">
+    <value>Geben Sie Ihre Novalnet-Tarif-ID ein</value>
+  </data>
+  <data name="custom.referrerid_desc" xml:space="preserve">
+    <value>Geben Sie die Partner-ID der Person / des Unternehmens ein, welche / welches Ihnen Novalnet empfohlen hat</value>
+  </data>
+  <data name="custom.payment_accesskey_desc" xml:space="preserve">
+    <value>Geben Sie den Novalnet-Zahlungs-Zugriffsschlüssel ein</value>
+  </data>
+  <data name="custom.slipexpirydate_desc" xml:space="preserve">
+    <value>Geben Sie die Anzahl der Tage ein, um den Betrag in einer Barzahlen-Partnerfiliale in Ihrer Nähe zu bezahlen. Wenn das Feld leer ist, werden standardmäßig 14 Tage als Fälligkeitsdatum gesetzt</value>
+  </data>
+  <data name="custom.invoice_duedate_desc" xml:space="preserve">
+    <value>Geben Sie die Anzahl der Tage ein, binnen derer die Zahlung bei Novalnet eingehen soll (muss größer als 7 Tage sein). Falls dieses Feld leer ist, werden 14 Tage als Standard-Zahlungsfrist gesetzt</value>
+  </data>
+  <data name="custom.gateway_timeout_title" xml:space="preserve">
+    <value>Zeitlimit der Schnittstelle (in Sekunden)</value>
+  </data>
+  <data name="custom.onhold_desc" xml:space="preserve">
+    <value>Falls der Bestellbetrag das angegebene Limit übersteigt, wird die Transaktion ausgesetzt, bis Sie diese selbst bestätigen</value>
+  </data>
+  <data name="custom.gateway_timeout_desc" xml:space="preserve">
+    <value>Falls die Verarbeitungszeit der Bestellung das Zeitlimit der Schnittstelle überschreitet, wird die Bestellung nicht ausgeführt</value>
+  </data>
+  <data name="custom.invoice_title" xml:space="preserve">
+    <value>Kauf auf Rechnung</value>
+  </data>
+  <data name="custom.live_mode" xml:space="preserve">
+    <value>Live-Modus</value>
+  </data>
+  <data name="custom.global_configuration" xml:space="preserve">
+    <value>Novalnet Haupteinstellungen</value>
+  </data>
+  <data name="custom.transaction_details" xml:space="preserve">
+    <value>Novalnet-Transaktionsdetails</value>
+  </data>
+  <data name="custom.payment_accesskey_title" xml:space="preserve">
+    <value>Zahlungs-Zugriffsschlüssel</value>
+  </data>
+  <data name="custom.invoice_duedate_title" xml:space="preserve">
+    <value>Fälligkeitsdatum (in Tagen)</value>
+  </data>
+  <data name="custom.payment_reference1" xml:space="preserve">
+    <value>Verwendungszweck 1</value>
+  </data>
+  <data name="custom.payment_reference2" xml:space="preserve">
+    <value>Verwendungszweck 2</value>
+  </data>
+  <data name="custom.payment_reference_title" xml:space="preserve">
+    <value>Bitte verwenden Sie einen der unten angegebenen Verwendungszwecke für die Überweisung, da nur so Ihr Geldeingang zugeordnet werden kann</value>
+  </data>
+  <data name="custom.payment_description" xml:space="preserve">
+    <value>Nach der erfolgreichen Überprüfung werden Sie auf die sichere Bestellseite von Novalnet weitergeleitet, um mit der Zahlung fortzufahren.
+Bitte schließen Sie den Browser nach der erfolgreichen Zahlung erst, wenn Sie in den Shop zurückkehren.</value>
+  </data>
+  <data name="custom.novalnet_module_description" xml:space="preserve">
+    <value>Nahtlose Anbindung gem&amp;auml;&amp;szlig; dem PCI-Standard mit verschiedenen Zahlungsarten und zahlungs-relevanten Dienstleistungen, welche in eine einzigartige Plattform integriert sind. Kontaktieren Sie uns bitte unter sales@novalnet.de</value>
+  </data>
+  <data name="custom.projectid_title" xml:space="preserve">
+    <value>Projekt-ID</value>
+  </data>
+  <data name="custom.referrerid_title" xml:space="preserve">
+    <value>Partner-ID</value>
+  </data>
+  <data name="custom.onhold_title" xml:space="preserve">
+    <value>Limit für onhold-Buchungen setzen</value>
+  </data>
+  <data name="custom.slipexpirydate_title" xml:space="preserve">
+    <value>Verfallsdatum des Zahlscheins (in Tagen)</value>
+  </data>
+  <data name="custom.tariffid_title" xml:space="preserve">
+    <value>Tarif-ID</value>
+  </data>
+  <data name="custom.test_mode" xml:space="preserve">
+    <value>Testmodus</value>
+  </data>
+  <data name="custom.cc3d_desc" xml:space="preserve">
+    <value>3D-Secure wird für Kreditkarten aktiviert. Die kartenausgebende Bank fragt vom Käufer ein Passwort ab, welches helfen soll, betrügerische Zahlungen zu verhindern. Dies kann von der kartenausgebenden Bank als Beweis verwendet werden, dass der Käufer tatsächlich der Inhaber der Kreditkarte ist. Damit soll das Risiko von Chargebacks verringert werden</value>
+  </data>
+  <data name="custom.testmode_desc" xml:space="preserve">
+    <value>Die Zahlung wird im Testmodus durchgeführt, daher wird der Betrag für diese Transaktion nicht eingezogen</value>
+  </data>
+  <data name="custom.transaction_mode" xml:space="preserve">
+    <value>Transaktion modus</value>
+  </data>
+  <data name="custom.merchantid_title" xml:space="preserve">
+    <value>Händler-ID</value>
+  </data>
+  <data name="custom.basic_param_validation" xml:space="preserve">
+    <value>Ungültige Parameter für die Händlereinstellungen</value>
+  </data>
+  <data name="custom.testmode_notification" xml:space="preserve">
+    <value>Die Zahlung wird im Testmodus durchgeführt, daher wird der Betrag für diese Transaktion nicht eingezogen</value>
+  </data>
+  <data name="custom.sepa_duedate_desc" xml:space="preserve">
+    <value>Geben Sie die Anzahl der Tage ein, nach denen die Zahlung verarbeitet werden soll</value>
+  </data>
+  <data name="custom.sepa_duedate_title" xml:space="preserve">
+    <value>Abstand (in Tagen) bis zum SEPA-Einzugsdatum</value>
+  </data>
+  <data name="custom.sepa_title" xml:space="preserve">
+    <value>Lastschrift SEPA</value>
+  </data>
+</root>
