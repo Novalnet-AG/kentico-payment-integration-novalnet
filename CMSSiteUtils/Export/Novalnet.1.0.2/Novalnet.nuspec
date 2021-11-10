@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Novalnet</id>
+    <version>1.0.2</version>
+    <title>Novalnet</title>
+    <authors>Novalnet AG</authors>
+    <owners>Novalnet AG</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>PCI Compliant, seamless integration with the various types of payment and payment-related services integrated into one unique platform. Please contact us at sales@novalnet.de</description>
+  </metadata>
+</package>
